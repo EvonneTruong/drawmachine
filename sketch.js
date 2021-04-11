@@ -1,3 +1,5 @@
+let draw = []
+
 function setup() {
   createCanvas(500, 500);
   background(220);
@@ -11,7 +13,8 @@ function draw() {
 if (mouseIsPressed){
   stroke(map(mouseX, 0, 600, 0, 255, true));
   line(mouseX, mouseY, pmouseX, pmouseY);
-  line(width - mouseX, height - mouseY, width - pmouseX, height - pmouseY);
+  // line(width - mouseX, height - mouseY, width - pmouseX, height - pmouseY);
+  array.push([mouseX, mouseY]);
 }
 }
 
@@ -21,6 +24,8 @@ function keyTyped(){
   if (key === "s"){
     //save this images
     saveCanvas('fileName', 'png')
+  } else if (key === "d"){
+    //display images
   }
 
   return false;
