@@ -6,6 +6,12 @@ html, body {
 h1 {
   text-align: center;
   padding: 20px;
+
+}
+
+p {
+  font-family: verdana;
+  text-align: center;
 }
 
 canvas {
