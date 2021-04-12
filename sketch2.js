@@ -2,7 +2,7 @@ let array = [];
 let bgColor = 200;
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(windowWidth,windowHeight);
   background(bgColor);
   strokeWeight(5);
   // stroke(map(mouseX, 0, 600, 0, 255, true));
