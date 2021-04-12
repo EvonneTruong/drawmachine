@@ -14,6 +14,11 @@ p {
   text-align: center;
 }
 
+h3 {
+  font-family: verdana;
+  text-align: center;
+}
+
 canvas {
   margin: auto;
  display: block;
